@@ -1573,3 +1573,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 }
+
+@media (max-width: 460px) {
+  #header h1 a{
+    font-size: 20px;
+  }
+  
+}
