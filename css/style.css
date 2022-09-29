@@ -126,6 +126,8 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  display:flex;
+  align-item:center;
 }
 
 #header.header-scrolled {
@@ -847,8 +849,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* Facts Section
---------------------------------*/
-
+99999999
 #facts {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
@@ -1574,7 +1575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 414px) {
   #header h1 a{
     font-size: 20px;
   }
